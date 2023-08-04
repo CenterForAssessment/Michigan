@@ -57,8 +57,8 @@ Michigan_SGP <- abcSGP(
 #
 
 ###   Save results
-#save(Michigan_SGP, file="Data/Michigan_SGP.Rdata")
-#outputSGP(Michigan_SGP, state="MI",output.type="LONG_FINAL_YEAR_Data")
+save(Michigan_SGP, file="Data/Michigan_SGP.Rdata")
+outputSGP(Michigan_SGP, state="MI",output.type="LONG_FINAL_YEAR_Data")
 
 
 ###
